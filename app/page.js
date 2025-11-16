@@ -20,12 +20,12 @@ export default function Home() {
 
 
       {/* Título */}
-      <h1 className="text-4xl font-bold text-white mb-2 flex items-center gap-2 drop-shadow-lg">
+      <h1 className="text-5xl font-bold text-white mb-2 flex items-center gap-2 drop-shadow-lg">
         📚 Repositorio Digital Baraya
       </h1>
       
       {/* Subtítulo */}
-      <p className="text-white/90 mb-8 drop-shadow-md">
+      <p className="text-white/200 mb-8 drop-shadow-md">
         Bienvenido a tu espacio de estudio. Selecciona una materia para comenzar.
       </p>
 
@@ -57,7 +57,7 @@ export default function Home() {
       </div>
 
 
-      <div className="absolute bottom-4 right-4 text-white/80 text-sm bg-black/20 px-3 py-1 rounded-lg backdrop-blur-sm shadow">
+      <div className="absolute bottom-10 right-4 text-white/80 text-sm bg-black/20 px-3 py-1 rounded-lg backdrop-blur-sm shadow">
         Material de estudio extraído de:{" "}
         <a 
           href="https://librosdetextocolombia.com/" 
