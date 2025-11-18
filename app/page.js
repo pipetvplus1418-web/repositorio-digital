@@ -57,6 +57,12 @@ export default function Home() {
       </div>
 
 
+      {/* Subtítulo */}
+      <p className="text-white/200 mb-8 drop-shadow-md">
+        Proyecto de grado por: Felipe Ojeda-Wilmary Gamboa
+      </p>
+
+
       <div className="absolute bottom-10 right-4 text-white/80 text-sm bg-black/20 px-3 py-1 rounded-lg backdrop-blur-sm shadow">
         Material de estudio extraído de:{" "}
         <a 
