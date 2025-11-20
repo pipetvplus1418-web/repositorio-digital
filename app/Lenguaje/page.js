@@ -68,6 +68,42 @@ export default function Lenguaje() {
         </Link>
       </div>
 
+
+
+      {/* BOTONES DE OTRAS MATERIAS  */}
+<div className="fixed top-4 right-4 flex gap-3 z-50">
+
+  <Link 
+    href="/matematicas"
+    className="bg-white/20 text-white px-4 py-2 rounded-xl shadow
+               hover:bg-white/30 backdrop-blur-md transition"
+  >
+    ✖ Matemáticas
+  </Link> 
+  
+
+  <Link 
+    href="/ciencias"
+    className="bg-white/20 text-white px-4 py-2 rounded-xl shadow
+               hover:bg-white/30 backdrop-blur-md transition"
+  >
+    🔬 Ciencias
+  </Link>
+
+  <Link 
+    href="/sociales"
+    className="bg-white/20 text-white px-4 py-2 rounded-xl shadow
+               hover:bg-white/30 backdrop-blur-md transition"
+  >
+    🌎 Sociales
+  </Link>
+
+</div>
+  
+
+
+      
+
       {/* IMAGEN */}
       <div className="flex justify-center mb-4">
         <Image  
